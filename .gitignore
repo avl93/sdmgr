@@ -1,1 +1,3 @@
 /bin
+*.pid
+release/logs/

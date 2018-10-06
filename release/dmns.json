@@ -1,0 +1,14 @@
+[
+    {
+        "id" : "test_0",
+        "file" : "/bin/bash",
+        "params" : "test.sh",
+        "dir" : "."
+    },
+    {
+        "id" : "test_1",
+        "file" : "/bin/bash",
+        "params" : "test.sh",
+        "dir" : "."
+    }
+]
