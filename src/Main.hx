@@ -3,9 +3,7 @@ package;
 import haxe.Json;
 import haxe.Template;
 import haxe.io.Bytes;
-import haxe.io.Output;
 import sys.FileSystem;
-import sys.db.Object;
 import sys.io.File;
 
 /**
@@ -25,6 +23,9 @@ class Main
 
 	static function main()
 	{
+		if (!FileSystem.exists("logs")){
+			FileSystem.createDirectory("logs");
+		}
 		readConfig();
 
 		if (Sys.args().length > 1)
